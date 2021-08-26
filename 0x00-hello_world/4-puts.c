@@ -1,9 +1,8 @@
 #include <stdio.h>
 /**
- * We will be printing a sentence with this betty style
- * main - Entry point
- * Description: Printing a sentence using the "puts" function
- * Return: Always 0 (Success)
+ * main - Prints string
+ * Description: Prints "\"Programming is like building a multilingual puzzle"
+ * Return: 0    
  */
 
 int main(void)
