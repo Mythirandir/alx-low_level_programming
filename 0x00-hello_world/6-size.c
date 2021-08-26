@@ -1,0 +1,14 @@
+#include <stdio.h>
+/**
+ * main - will return the size of different types of variables
+ * Description: the main function will be using the "printf" function to print out the sizes, and the "sizeof" to print the siz
+ * Return: will be 0
+ */
+int main(void)
+{
+	printf("Size of a char %lu byte(s) \n", sizeof(char));
+	printf("Size of an int %lu byte(s)\n", sizeof(int));
+	printf("Size of a long int %lu byte(s)\n", sizeof(long int));
+	printf("Size of long long int = %lu bytes\n", sizeof(long long int));
+	printf("Size of float = %lu bytes\n", sizeof(float);
+}
