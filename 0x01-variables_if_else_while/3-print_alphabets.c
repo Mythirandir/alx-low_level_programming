@@ -3,7 +3,6 @@
  * main - prints out the alphabet in lowercase and then uppercase
  * Description: Taking up arms against alphabets
  * Return: 0
- *    
  */
 int main(void)
 {
