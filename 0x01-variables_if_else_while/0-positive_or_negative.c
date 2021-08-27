@@ -1,16 +1,15 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-/** more headers goes there
+/** 
  * main - Main function working
  * Description: Positive or negative numbers
  * Return: 0
- * betty style doc for function main goes there 
+ *  
 */
-
 int main(void)
 {
-	int n=1;
+	int n = 1;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
