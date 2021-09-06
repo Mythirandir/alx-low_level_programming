@@ -8,9 +8,17 @@
  */
 int main(void)
 {
-	srand(time(0));
-	int num = rand();
+	int myrand;
+	int count;
+	int total;
 
-	printf("%i\n",num);
-	return (0);
+	srand(time(NULL));
+	for (count = 0, total = 2772; total > 122; count++)
+	{
+		myrand = (rand() % 125) +1;
+		printf("%c", myrand);
+		total -= myrand;
+	}
+	printf("%c", total);
+	return(0);
 }
