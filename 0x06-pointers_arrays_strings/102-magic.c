@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/**
+ * main - Modifies the variables
+ * Return: main returns (0)
+ */
+
 int main(void)
 {
 	int n;
