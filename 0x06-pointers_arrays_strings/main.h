@@ -30,8 +30,8 @@ char *leet(char *);
 /* 8-rot13.c */
 char *rot13(char *);
 
-/* 101-magic.c */
-void main(int n);
+/* 102-magic.c */
+void print_number (int n);
 
 /* 102-infinite_add.c */
 char *infinite_add(char *n1, char *n2, char *r, int size_r);
