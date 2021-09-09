@@ -31,7 +31,7 @@ char *leet(char *);
 char *rot13(char *);
 
 /* 101-magic.c */
-void print_number(int n);
+void main(int n);
 
 /* 102-infinite_add.c */
 char *infinite_add(char *n1, char *n2, char *r, int size_r);
