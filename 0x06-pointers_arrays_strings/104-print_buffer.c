@@ -34,7 +34,7 @@ void printHexes(char *b, int start, int end)
 }
 
 /**
- *  * printASCII - print ascii values for string b,
+ * printASCII - print ascii values for string b,
  * formatted to replace nonprintable chars with '.'
  * @b: string to print
  * @start: starting position
@@ -55,7 +55,7 @@ void printASCII(char *b, int start, int end)
 }
 
 /**
- * int_buffer - prints a buffer
+ * print_buffer - prints a buffer
  * @b: string
  * @size: size of buffer
  */
