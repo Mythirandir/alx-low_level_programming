@@ -18,6 +18,7 @@ int main(int argc, char *argv[])
 	if (argc == 3)
 	{
 		int n, m, mult = 0;
+
 		n = atoi(argv[1]);
 		m = atoi(argv[2]);
 		mult = n * m;
